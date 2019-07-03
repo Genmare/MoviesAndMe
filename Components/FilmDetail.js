@@ -122,8 +122,8 @@ class FilmDetail extends React.Component {
                 return company.name;
               }).join(" / ")}
             </Text>
+            {this._displayViewButton()}
           </ScrollView>
-          {this._displayViewButton()}
         </View>
       )
     }
